@@ -1,0 +1,7 @@
+{
+  "upgrade": true,
+  "interactive": true,
+  "workspaces": false,
+  "cooldown": 2,
+  "reject": ["@types/node"]
+}

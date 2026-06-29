@@ -1,0 +1,861 @@
+{
+  "$schema": "./data.schema.json",
+  "projects": [
+    {
+      "id": "openstreetmap",
+      "title": "OpenStreetMap",
+      "description": "Online mapping service maintained by community of volunteers.",
+      "categories": ["location"],
+      "hardware": ["phone", "pc"],
+      "website": "https://openstreetmap.org",
+      "wikidata": "Q936",
+      "enwiki": "OpenStreetMap"
+    },
+    {
+      "id": "openplaques",
+      "title": "Open Plaques",
+      "description": "Community-based project to document plaques and historical markers.",
+      "categories": ["location"],
+      "hardware": ["camera", "pc"],
+      "website": "https://openplaques.org",
+      "wikidata": "Q23018437"
+    },
+    {
+      "id": "wikipedia",
+      "title": "Wikipedia",
+      "description": "Online encyclopedia which can be edited by anyone.",
+      "categories": ["writing", "translation"],
+      "hardware": ["phone", "pc"],
+      "website": "https://wikipedia.org",
+      "wikidata": "Q52",
+      "enwiki": "Wikipedia"
+    },
+    {
+      "id": "panoramax",
+      "title": "Panoramax",
+      "description": "Collaborative database of street-level imagery.",
+      "categories": ["location"],
+      "hardware": ["phone", "camera"],
+      "website": "https://panoramax.fr",
+      "wikidata": "Q120971923",
+      "enwiki": "Panoramax"
+    },
+    {
+      "id": "beacondb",
+      "title": "beaconDB",
+      "description": "Public domain wireless geolocation database.",
+      "categories": ["location"],
+      "hardware": ["phone"],
+      "website": "https://beacondb.net",
+      "wikidata": "Q131450547"
+    },
+    {
+      "id": "inaturalist",
+      "title": "iNaturalist",
+      "description": "Citizen science project for sharing observations of biodiversity across the globe.",
+      "categories": ["location", "science", "photos"],
+      "hardware": ["phone", "pc", "camera"],
+      "website": "https://inaturalist.org",
+      "wikidata": "Q16958215",
+      "enwiki": "INaturalist"
+    },
+    {
+      "id": "ebird",
+      "title": "eBird",
+      "description": "Online database of bird observations.",
+      "categories": ["location", "science", "photos"],
+      "hardware": ["phone", "pc", "camera"],
+      "website": "https://ebird.org",
+      "wikidata": "Q5322614",
+      "enwiki": "EBird"
+    },
+    {
+      "id": "mushroomobserver",
+      "title": "Mushroom Observer",
+      "description": "Collaborative mycology citizen science project.",
+      "categories": ["science", "photos"],
+      "hardware": ["phone", "pc", "camera"],
+      "website": "https://mushroomobserver.org",
+      "wikidata": "Q4377029",
+      "enwiki": "Mushroom Observer"
+    },
+    {
+      "id": "adsbfi",
+      "title": "adsb.fi",
+      "description": "Community-driven flight tracker with open and unfiltered access to worldwide air traffic data.",
+      "categories": ["hardware"],
+      "hardware": ["sdr"],
+      "website": "https://adsb.fi",
+      "wikidata": "Q116553437"
+    },
+    {
+      "id": "glidernet",
+      "title": "The Open Glider Network",
+      "description": "Live tracking of gliders, paragliders, UAVs, and other aircraft.",
+      "categories": ["hardware"],
+      "hardware": ["sdr"],
+      "website": "https://www.glidernet.org",
+      "wikidata": "Q110198613",
+      "enwiki": "Open Glider Network"
+    },
+    {
+      "id": "openaerialmap",
+      "title": "OpenAerialMap",
+      "description": "Openly licensed satellite and unmanned aerial vehicle (UAV) imagery.",
+      "categories": ["location"],
+      "hardware": ["uav"],
+      "website": "https://openaerialmap.org",
+      "wikidata": "Q1763147"
+    },
+    {
+      "id": "commonvoice",
+      "title": "Mozilla Common Voice",
+      "description": "Public domain data of human speech recordings.",
+      "categories": ["data", "audio"],
+      "hardware": ["pc", "microphone", "phone"],
+      "website": "https://commonvoice.mozilla.org",
+      "wikidata": "Q44106011",
+      "enwiki": "Common Voice"
+    },
+    {
+      "id": "lingualibre",
+      "title": "Lingua Libre",
+      "description": "Online linguistic media library of spoken voice as well as sign language.",
+      "categories": ["audio"],
+      "hardware": ["pc", "microphone"],
+      "website": "https://lingualibre.org",
+      "wikidata": "Q60024037",
+      "enwiki": "Lingua Libre"
+    },
+    {
+      "id": "openfoodfacts",
+      "title": "Open Food Facts",
+      "description": "Open wiki to catalog food, nutrition facts and ingredients.",
+      "categories": ["data"],
+      "hardware": ["pc", "phone"],
+      "website": "https://openfoodfacts.org",
+      "wikidata": "Q3353146",
+      "enwiki": "Open Food Facts"
+    },
+    {
+      "id": "meshtastic",
+      "title": "Meshtastic",
+      "description": "Open source, decentralized LoRa based mesh network.",
+      "categories": ["hardware"],
+      "hardware": ["lora", "sdr"],
+      "website": "https://meshtastic.org",
+      "wikidata": "Q115244018",
+      "enwiki": "Meshtastic"
+    },
+    {
+      "id": "meshcore",
+      "title": "MeshCore",
+      "description": "Open source, decentralized LoRa based mesh network.",
+      "categories": ["hardware"],
+      "hardware": ["lora", "sdr"],
+      "website": "https://meshcore.io",
+      "wikidata": "Q134394530",
+      "enwiki": "MeshCore"
+    },
+    {
+      "id": "reticulum",
+      "title": "Reticulum",
+      "description": "Networking stack for builing encrypted decentralized networks with readily available hardware.",
+      "categories": ["hardware", "software"],
+      "hardware": ["server", "lora", "sdr"],
+      "website": "https://reticulum.network",
+      "wikidata": "Q114595707"
+    },
+    {
+      "id": "tinygs",
+      "title": "TinyGS",
+      "description": "Open source global satellite tracking network.",
+      "categories": ["hardware", "science"],
+      "hardware": ["lora", "sdr"],
+      "website": "https://tinygs.com"
+    },
+    {
+      "id": "eol",
+      "title": "Encyclopedia of Life",
+      "description": "Encyclopedia with aim to document all of the living species.",
+      "categories": ["science", "data"],
+      "hardware": ["pc"],
+      "website": "https://eol.org",
+      "wikidata": "Q82486",
+      "enwiki": "Encyclopedia of Life"
+    },
+    {
+      "id": "wikispecies",
+      "title": "Wikispecies",
+      "description": "Wiki encyclopedia with aim to document all of the living species.",
+      "categories": ["science", "data"],
+      "hardware": ["pc"],
+      "website": "https://species.wikimedia.org",
+      "wikidata": "Q13679",
+      "enwiki": "Wikispecies"
+    },
+    {
+      "id": "wikidata",
+      "title": "Wikidata",
+      "description": "Collaboratively edited multilingual knowledge graph.",
+      "categories": ["data", "translation"],
+      "hardware": ["pc", "phone"],
+      "website": "https://wikidata.org",
+      "wikidata": "Q2013",
+      "enwiki": "Wikidata"
+    },
+    {
+      "id": "wikimediacommons",
+      "title": "Wikimedia Commons",
+      "description": "Media repository of free-to-use images, sounds, video and other media.",
+      "categories": ["audio", "photos", "graphics"],
+      "hardware": ["pc", "phone"],
+      "website": "https://commons.wikimedia.org",
+      "wikidata": "Q565",
+      "enwiki": "Wikimedia Commons"
+    },
+    {
+      "id": "wikiquote",
+      "title": "Wikiquote",
+      "description": "Wiki-based project to collect reference of quotation from promiment people and media",
+      "categories": ["data"],
+      "hardware": ["pc"],
+      "website": "https://wikiquote.org",
+      "wikidata": "Q369",
+      "enwiki": "Wikiquote"
+    },
+    {
+      "id": "wiktionary",
+      "title": "Wiktionary",
+      "description": "Wiki project to create a free dictionary.",
+      "categories": ["data", "writing"],
+      "hardware": ["pc"],
+      "website": "https://wiktionary.org",
+      "wikidata": "Q151",
+      "enwiki": "Wiktionary"
+    },
+    {
+      "id": "wikivoyage",
+      "title": "Wikivoyage",
+      "description": "Free, editable by anyone travel guide.",
+      "categories": ["writing", "translation"],
+      "hardware": ["pc"],
+      "website": "https://wikivoyage.org",
+      "wikidata": "Q373",
+      "enwiki": "Wikivoyage"
+    },
+    {
+      "id": "wikisource",
+      "title": "Wikisource",
+      "description": "Wiki-based digital online library of free textual sources.",
+      "categories": ["data"],
+      "hardware": ["pc"],
+      "website": "https://wikisource.org",
+      "wikidata": "Q263",
+      "enwiki": "Wikisource"
+    },
+    {
+      "id": "wikiversity",
+      "title": "Wikiversity",
+      "description": "Wiki-based project for creating a free learning material.",
+      "categories": ["writing"],
+      "hardware": ["pc"],
+      "website": "https://wikiversity.org",
+      "wikidata": "Q370",
+      "enwiki": "Wikiversity"
+    },
+    {
+      "id": "tor",
+      "title": "Tor",
+      "description": "Free overlay network enabling users across the world to anonymously communicate and bypass Internet censorship.",
+      "categories": ["software"],
+      "hardware": ["server"],
+      "website": "https://torproject.org",
+      "wikidata": "Q202044",
+      "enwiki": "Tor (network)"
+    },
+    {
+      "id": "i2p",
+      "title": "I2P",
+      "description": "Decentralized overlay network that allows people to communicate and share information anonymously.",
+      "categories": ["software"],
+      "hardware": ["server"],
+      "website": "https://i2p.net",
+      "wikidata": "Q565283",
+      "enwiki": "I2P"
+    },
+    {
+      "id": "archiveteam",
+      "title": "Archive Team",
+      "description": "Group focused on digital preservation and web archiving.",
+      "categories": ["software"],
+      "hardware": ["server"],
+      "website": "https://archiveteam.org",
+      "wikidata": "Q4787261",
+      "enwiki": "Archive Team"
+    },
+    {
+      "id": "opensensemap",
+      "title": "openSenseMap",
+      "description": "Platform for storing and exploring environmental sensor data.",
+      "categories": ["hardware"],
+      "hardware": ["geiger_counter", "weather_station", "air_quality_monitor"],
+      "website": "https://opensensemap.org"
+    },
+    {
+      "id": "safecast",
+      "title": "Safecast",
+      "description": "Citizen science project to monitor air quality and radiation.",
+      "categories": ["hardware"],
+      "hardware": ["geiger_counter", "air_quality_monitor"],
+      "website": "https://safecast.org",
+      "wikidata": "Q26250786",
+      "enwiki": "Safecast"
+    },
+    {
+      "id": "radmon",
+      "title": "radmon.org",
+      "description": "Worldwide radiation monitoring.",
+      "categories": ["hardware"],
+      "hardware": ["geiger_counter"],
+      "website": "https://radmon.org"
+    },
+    {
+      "id": "boinc",
+      "title": "BOINC",
+      "description": "Volunteer computation for science projects.",
+      "categories": ["software", "science"],
+      "hardware": ["server"],
+      "website": "https://boinc.berkeley.edu",
+      "wikidata": "Q209563",
+      "enwiki": "Berkeley Open Infrastructure for Network Computing"
+    },
+    {
+      "id": "blitzortung",
+      "title": "Blitzortung.org",
+      "description": "Lightning detection network for locating electromagnetic discharges in the atmosphere (lightning discharges) with VLF receivers.",
+      "categories": ["hardware"],
+      "hardware": ["lightning_detector"],
+      "website": "https://www.blitzortung.org",
+      "wikidata": "Q98435235",
+      "enwiki": "Blitzortung"
+    },
+    {
+      "id": "sensorcommunity",
+      "title": "Sensor.Community",
+      "description": "Contributors driven global sensor network that creates Open Environmental Data.",
+      "categories": ["hardware"],
+      "hardware": ["air_quality_monitor", "noise_sensor"],
+      "website": "https://sensor.community",
+      "wikidata": "Q111211589"
+    },
+    {
+      "id": "noiseplanet",
+      "title": "Noise-Planet",
+      "description": "Citizen science project in environmental noise assessment.",
+      "categories": ["location", "audio", "science"],
+      "hardware": ["phone"],
+      "website": "https://noise-planet.org"
+    },
+    {
+      "id": "sondehub",
+      "title": "SondeHub",
+      "description": "Track meteorological radiosondes.",
+      "categories": ["hardware", "location"],
+      "hardware": ["sdr", "lora"],
+      "website": "https://sondehub.org"
+    },
+    {
+      "id": "xeno-canto",
+      "title": "xeno-canto",
+      "description": "Sharing wildlife sounds from around the world.",
+      "categories": ["science", "audio"],
+      "hardware": ["microphone"],
+      "website": "https://xeno-canto.org",
+      "wikidata": "Q8043516",
+      "enwiki": "Xeno-canto"
+    },
+    {
+      "id": "freesound",
+      "title": "Freesound",
+      "description": "Collaborative database of free audio samples.",
+      "categories": ["audio"],
+      "hardware": ["pc", "microphone"],
+      "website": "https://freesound.org",
+      "wikidata": "Q835703",
+      "enwiki": "Freesound"
+    },
+    {
+      "id": "librivox",
+      "title": "LibriVox",
+      "description": "Free public domain audiobooks read by volunteers from around the world.",
+      "categories": ["audio"],
+      "hardware": ["pc", "microphone"],
+      "website": "https://librivox.org",
+      "wikidata": "Q1070969",
+      "enwiki": "LibriVox"
+    },
+    {
+      "id": "railwaystations",
+      "title": "RailwayStations",
+      "description": "A collection of open data photos of railway stations",
+      "categories": ["photos"],
+      "hardware": ["pc", "phone", "camera"],
+      "website": "https://railway-stations.org"
+    }
+  ],
+  "tools": [
+    {
+      "id": "streetcomplete",
+      "title": "StreetComplete",
+      "description": "Easy-to-use OpenSteetMap editor for phone turning map editing into a game.",
+      "hardware": ["phone"],
+      "projects": ["openstreetmap"],
+      "platforms": ["android"],
+      "links": {
+        "website": "https://streetcomplete.app",
+        "fdroid": "de.westnordost.streetcomplete",
+        "googleplay": "de.westnordost.streetcomplete",
+        "sourcecode": "https://github.com/streetcomplete/StreetComplete"
+      },
+      "wikidata": "Q56221667",
+      "enwiki": "StreetComplete"
+    },
+    {
+      "id": "scee",
+      "title": "SCEE",
+      "description": "Fork of StreetComplete with some advanced features for more experienced mappers.",
+      "hardware": ["phone"],
+      "projects": ["openstreetmap"],
+      "platforms": ["android"],
+      "links": {
+        "website": "https://streetcomplete.app",
+        "fdroid": "de.westnordost.streetcomplete.expert",
+        "sourcecode": "https://github.com/Helium314/SCEE"
+      },
+      "wikidata": "Q121080607"
+    },
+    {
+      "id": "everydoor",
+      "title": "Every Door",
+      "description": "OpenStreetMap editor for POIs and entrances.",
+      "hardware": ["phone"],
+      "projects": ["openstreetmap"],
+      "platforms": ["android", "ios"],
+      "links": {
+        "website": "https://every-door.app",
+        "fdroid": "info.zverev.ilya.every_door",
+        "googleplay": "info.zverev.ilya.every_door",
+        "sourcecode": "https://github.com/Zverik/every_door",
+        "appstore": 1621945342
+      },
+      "wikidata": "Q112062603"
+    },
+    {
+      "id": "vespucci",
+      "title": "Vespucci",
+      "description": "Full-featured OpenStreetMap Android editor.",
+      "hardware": ["phone"],
+      "projects": ["openstreetmap"],
+      "platforms": ["android"],
+      "links": {
+        "website": "https://vespucci.io",
+        "fdroid": "de.blau.android",
+        "googleplay": "de.blau.android",
+        "sourcecode": "https://github.com/MarcusWolschon/osmeditor4android"
+      },
+      "wikidata": "Q60050619"
+    },
+    {
+      "id": "maproulette",
+      "title": "MapRoulette",
+      "description": "Microtask platform and web application for OpenStreetMap.",
+      "hardware": ["pc"],
+      "projects": ["openstreetmap"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://maproulette.org",
+        "sourcecode": "https://github.com/maproulette/maproulette3"
+      },
+      "wikidata": "Q116814708"
+    },
+    {
+      "id": "josm",
+      "title": "JOSM",
+      "description": "Desktop application for editing OpenStreetMap.",
+      "hardware": ["pc"],
+      "projects": ["openstreetmap"],
+      "platforms": ["windows", "linux", "macos"],
+      "links": {
+        "website": "https://josm.openstreetmap.de",
+        "sourcecode": "https://josm.openstreetmap.de/svn/trunk",
+        "flathub": "org.openstreetmap.josm"
+      },
+      "wikidata": "Q12877",
+      "enwiki": "JOSM"
+    },
+    {
+      "id": "id",
+      "title": "iD",
+      "description": "In-browser app used to edit the OpenStreetMap.",
+      "hardware": ["pc"],
+      "projects": ["openstreetmap"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://ideditor.com",
+        "sourcecode": "https://github.com/openstreetmap/iD"
+      },
+      "wikidata": "Q18275868",
+      "enwiki": "ID (software)"
+    },
+    {
+      "id": "rapid",
+      "title": "Rapid",
+      "description": "Fork of iD editor from Meta with AI.",
+      "hardware": ["pc"],
+      "projects": ["openstreetmap"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://rapideditor.org",
+        "sourcecode": "https://github.com/facebook/Rapid"
+      },
+      "wikidata": "Q98682849"
+    },
+    {
+      "id": "owlplaces",
+      "title": "OWL Places",
+      "description": "Web-based tool to ease linking Wikidata to OpenStreetMap.",
+      "hardware": ["pc"],
+      "projects": ["openstreetmap", "wikidata"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://osm.wikidata.link",
+        "sourcecode": "https://github.com/EdwardBetts/osm-wikidata"
+      },
+      "wikidata": "Q62057752"
+    },
+    {
+      "id": "mapcomplete",
+      "title": "MapComplete",
+      "description": "Question-based easy to use editor for OpenStreetMap.",
+      "hardware": ["pc"],
+      "projects": ["openstreetmap"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://mapcomplete.org",
+        "sourcecode": "https://source.mapcomplete.org/MapComplete/MapComplete"
+      },
+      "wikidata": "Q135440522"
+    },
+    {
+      "id": "wikipedia",
+      "title": "Wikipedia",
+      "description": "Edit Wikipedia with mobile apps or via the website.",
+      "hardware": ["pc", "phone"],
+      "projects": ["wikipedia"],
+      "platforms": ["web", "ios", "android"],
+      "links": {
+        "website": "https://wikipedia.org",
+        "googleplay": "org.wikipedia",
+        "fdroid": "org.wikipedia",
+        "appstore": 324715238,
+        "sourcecode": "https://github.com/wikimedia"
+      },
+      "wikidata": "Q4390943",
+      "enwiki": "Wikipedia App"
+    },
+    {
+      "id": "author-disambiguator",
+      "title": "Author Disambiguator",
+      "description": "Wikidata service to help create or link author items to published articles.",
+      "hardware": ["pc"],
+      "projects": ["wikidata"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://author-disambiguator.toolforge.org",
+        "sourcecode": "https://github.com/arthurpsmith/author-disambiguator/"
+      },
+      "wikidata": "Q76693569"
+    },
+    {
+      "id": "como",
+      "title": "Como",
+      "description": "Platform for playing, creating, and managing Games with a Purpose.",
+      "hardware": ["pc", "phone"],
+      "projects": ["wikidata"],
+      "platforms": ["web", "android", "ios"],
+      "links": {
+        "website": "https://como.toolforge.org",
+        "googleplay": "org.toolforge.como",
+        "appstore": 6686407794,
+        "sourcecode": "https://gitlab.wikimedia.org/kristbaum/como"
+      },
+      "wikidata": "Q125832524"
+    },
+    {
+      "id": "commons",
+      "title": "Commons",
+      "description": "Contibute images to Wikimedia Commons.",
+      "hardware": ["phone"],
+      "projects": ["wikimediacommons"],
+      "platforms": ["android"],
+      "links": {
+        "website": "https://commons-app.github.io",
+        "fdroid": "fr.free.nrw.commons",
+        "googleplay": "fr.free.nrw.commons",
+        "sourcecode": "https://github.com/commons-app/apps-android-commons"
+      },
+      "wikidata": "Q12528989"
+    },
+    {
+      "id": "cvproject",
+      "title": "CV Project",
+      "description": "Contribute your voice to the Mozilla Common Voice project via your smartphone.",
+      "hardware": ["phone"],
+      "projects": ["commonvoice"],
+      "platforms": ["android"],
+      "links": {
+        "website": "https://www.saveriomorelli.com/commonvoice/",
+        "fdroid": "org.commonvoice.saverio",
+        "googleplay": "org.commonvoice.saverio",
+        "sourcecode": "https://github.com/cv-project-app/common-voice-app"
+      },
+      "wikidata": "Q137179869"
+    },
+    {
+      "id": "commonvoice",
+      "title": "Mozilla Common Voice",
+      "description": "Contribute your voice, validate readings or contribute public domain sentences with your browser.",
+      "hardware": ["pc", "microphone"],
+      "projects": ["commonvoice"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://commonvoice.mozilla.org/",
+        "sourcecode": "https://github.com/common-voice/common-voice"
+      },
+      "wikidata": "Q44106011",
+      "enwiki": "Common Voice"
+    },
+    {
+      "id": "lingualibre",
+      "title": "Lingua Libre",
+      "description": "Contribute to open audiovisual corpus from your browser.",
+      "hardware": ["pc", "microphone"],
+      "projects": ["lingualibre", "wikimediacommons"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://lingualibre.org/app/",
+        "sourcecode": "https://github.com/lingua-libre"
+      },
+      "wikidata": "Q60024037",
+      "enwiki": "Lingua Libre"
+    },
+    {
+      "id": "openfoodfacts",
+      "title": "OpenFoodFacts",
+      "description": "Contribute the OpenFoodFacts via web or mobile app.",
+      "hardware": ["phone", "pc"],
+      "projects": ["openfoodfacts"],
+      "platforms": ["android", "web", "ios"],
+      "links": {
+        "website": "https://openfoodfacts.org",
+        "fdroid": "openfoodfacts.github.scrachx.openfood",
+        "googleplay": "openfoodfacts.github.scrachx.openfood",
+        "appstore": 588797948,
+        "sourcecode": "https://github.com/openfoodfacts"
+      },
+      "wikidata": "Q68348289"
+    },
+    {
+      "id": "neostumbler",
+      "title": "NeoStumbler",
+      "description": "Contribute locations of Wi-Fi networks, cell towers and Bluetooth beacons to beaconDB and Mozilla Location Services.",
+      "hardware": ["phone"],
+      "projects": ["beacondb"],
+      "platforms": ["android"],
+      "links": {
+        "website": "https://neostumbler.malkki.xyz/",
+        "fdroid": "xyz.malkki.neostumbler.fdroid",
+        "googleplay": "xyz.malkki.neostumbler.fdroid",
+        "sourcecode": "https://github.com/mjaakko/NeoStumbler"
+      },
+      "wikidata": "Q134906361"
+    },
+    {
+      "id": "networksurvey",
+      "title": "Network Survey",
+      "description": "Collect cellular, Wi-Fi, Bluetooth, and/or GNSS information and contribute it to open databases.",
+      "hardware": ["phone"],
+      "projects": ["beacondb"],
+      "platforms": ["android"],
+      "links": {
+        "website": "https://networksurvey.app",
+        "fdroid": "com.craxiom.networksurvey",
+        "googleplay": "com.craxiom.networksurvey",
+        "sourcecode": "https://github.com/christianrowlands/android-network-survey"
+      }
+    },
+    {
+      "id": "noisecapture",
+      "title": "NoiseCapture",
+      "description": "Application that allows users to measure and share the noise environment.",
+      "hardware": ["phone"],
+      "projects": ["noiseplanet"],
+      "platforms": ["android"],
+      "links": {
+        "website": "https://noise-planet.org/noisecapture.html",
+        "fdroid": "org.noise_planet.noisecapture",
+        "googleplay": "org.noise_planet.noisecapture",
+        "sourcecode": "https://github.com/Universite-Gustave-Eiffel/NoiseCapture"
+      }
+    },
+    {
+      "id": "openplaques",
+      "title": "Open Plaques",
+      "description": "Contribute to Open Plagues via website.",
+      "hardware": ["pc"],
+      "projects": ["openplaques"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://openplaques.org"
+      },
+      "wikidata": "Q23018437"
+    },
+    {
+      "id": "inaturalist",
+      "title": "iNaturalist",
+      "description": "Contribute to iNaturalist via website or mobile app.",
+      "hardware": ["pc", "phone"],
+      "projects": ["inaturalist"],
+      "platforms": ["web", "android", "ios"],
+      "links": {
+        "website": "https://www.inaturalist.org",
+        "googleplay": "org.inaturalist.android",
+        "appstore": 6475737561
+      },
+      "wikidata": "Q121598191"
+    },
+    {
+      "id": "ebird",
+      "title": "eBird",
+      "description": "Contribute to eBird via website or mobile app.",
+      "hardware": ["pc", "phone"],
+      "projects": ["ebird"],
+      "platforms": ["web", "android", "ios"],
+      "links": {
+        "website": "https://ebird.org",
+        "googleplay": "edu.cornell.birds.ebird",
+        "appstore": 988799279
+      },
+      "wikidata": "Q5322614",
+      "enwiki": "EBird"
+    },
+    {
+      "id": "mushroomobserver",
+      "title": "Mushroom Observer",
+      "description": "Contribute to Mushroom Observer via website or mobile app.",
+      "hardware": ["pc", "phone"],
+      "projects": ["mushroomobserver"],
+      "platforms": ["web", "android", "ios"],
+      "links": {
+        "website": "https://mushroomobserver.org",
+        "googleplay": "org.mushroomobserver",
+        "appstore": 1585728694
+      },
+      "wikidata": "Q4377029",
+      "enwiki": "Mushroom Observer"
+    },
+    {
+      "id": "meshstastic",
+      "title": "Meshtastic",
+      "description": "Run Meshtastic node with ESP32/nRF52 based boards or with Raspberry Pi Pico.",
+      "hardware": ["lora"],
+      "projects": ["meshtastic"],
+      "platforms": ["esp32", "nrf52"],
+      "links": {
+        "website": "https://meshtastic.org",
+        "sourcecode": "https://github.com/meshtastic/firmware"
+      },
+      "wikidata": "Q115244018",
+      "enwiki": "Meshtastic"
+    },
+    {
+      "id": "meshstasticd",
+      "title": "meshtasticd",
+      "description": "Run Meshtastic with SDR.",
+      "hardware": ["lora", "sdr", "server"],
+      "projects": ["meshtastic"],
+      "platforms": ["linux", "macos"],
+      "links": {
+        "website": "https://meshtastic.org/docs/meshtasticd/",
+        "flathub": "org.meshtastic.meshtasticd",
+        "sourcecode": "https://github.com/meshtastic/firmware"
+      }
+    },
+    {
+      "id": "meshcore",
+      "title": "MeshCore",
+      "description": "Run MeshCore node with ESP32/nRF52 based boards.",
+      "hardware": ["lora"],
+      "projects": ["meshcore"],
+      "platforms": ["esp32", "nrf52"],
+      "links": {
+        "website": "https://meshcore.io",
+        "sourcecode": "https://github.com/meshcore-dev/MeshCore"
+      },
+      "wikidata": "Q134394530",
+      "enwiki": "MeshCore"
+    },
+    {
+      "id": "rnode",
+      "title": "RNode",
+      "description": "Use Reticulum with cheap LoRa radio boards.",
+      "hardware": ["lora"],
+      "projects": ["reticulum"],
+      "platforms": ["esp32"],
+      "links": {
+        "website": "https://unsigned.io/rnode/",
+        "sourcecode": "https://github.com/markqvist/RNode_Firmware"
+      },
+      "wikidata": "Q134592249"
+    },
+    {
+      "id": "rnsd",
+      "title": "rnsd",
+      "description": "Connect to Reticulum from your computer.",
+      "hardware": ["pc", "server"],
+      "projects": ["reticulum"],
+      "platforms": ["linux", "windows", "macos"],
+      "links": {
+        "website": "https://reticulum.network/manual/using.html#the-rnsd-utility",
+        "sourcecode": "https://github.com/markqvist/Reticulum"
+      }
+    },
+    {
+      "id": "tinygs",
+      "title": "TinyGS",
+      "description": "Track satellites using cheap LoRa boards.",
+      "hardware": ["lora"],
+      "projects": ["tinygs"],
+      "platforms": ["esp32"],
+      "links": {
+        "website": "https://installer.tinygs.com",
+        "sourcecode": "https://github.com/tinygs/tinyGS"
+      }
+    },
+    {
+      "id": "tor",
+      "title": "Tor",
+      "description": "Run Tor relay to help Tor Network.",
+      "hardware": ["server"],
+      "projects": ["tor"],
+      "platforms": ["linux"],
+      "links": {
+        "website": "https://community.torproject.org/relay/",
+        "sourcecode": "https://gitlab.torproject.org/tpo/core/tor/"
+      },
+      "wikidata": "Q202044",
+      "enwiki": "Tor (network)"
+    }
+  ]
+}

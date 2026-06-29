@@ -398,10 +398,195 @@
     {
       "id": "railwaystations",
       "title": "RailwayStations",
-      "description": "A collection of open data photos of railway stations",
+      "description": "A collection of open data photos of railway stations.",
       "categories": ["photos"],
       "hardware": ["pc", "phone", "camera"],
       "website": "https://railway-stations.org"
+    },
+    {
+      "id": "zooniverse",
+      "title": "Zooniverse",
+      "description": "A global citizen science platform.",
+      "categories": ["science", "data"],
+      "hardware": ["pc", "phone"],
+      "website": "https://www.zooniverse.org",
+      "wikidata": "Q2656157",
+      "enwiki": "Zooniverse"
+    },
+    {
+      "id": "scistarter",
+      "title": "SciStarter",
+      "description": "Citizen science platform.",
+      "categories": ["science", "data"],
+      "hardware": ["pc"],
+      "website": "https://scistarter.com",
+      "wikidata": "Q19862967",
+      "enwiki": "SciStarter"
+    },
+    {
+      "id": "citsci",
+      "title": "CitSci",
+      "description": "Citizen science platform.",
+      "categories": ["science", "data"],
+      "hardware": ["pc", "phone"],
+      "website": "https://citsci.org",
+      "wikidata": "Q75242994"
+    },
+    {
+      "id": "cochranecrowd",
+      "title": "Cochrane Crowd",
+      "description": "Help scientists identify and describe health clinical trials.",
+      "categories": ["science", "data"],
+      "hardware": ["pc"],
+      "website": "https://crowd.cochrane.org",
+      "wikidata": "Q42742115"
+    },
+    {
+      "id": "transcribebentham",
+      "title": "Transcribe Bentham",
+      "description": "Help transcribe the manuscripts of the English philosopher Jeremy Bentham.",
+      "categories": ["science", "data"],
+      "hardware": ["pc"],
+      "website": "https://transcribe-bentham.ucl.ac.uk",
+      "wikidata": "Q7833913",
+      "enwiki": "Transcribe Bentham"
+    },
+    {
+      "id": "globe",
+      "title": "GLOBE Program",
+      "description": "Worldwide project to advancing Earth systems science through data collection and analysis by volunteers.",
+      "categories": ["science", "data"],
+      "hardware": ["pc", "phone"],
+      "website": "https://www.globe.gov",
+      "wikidata": "Q1478751",
+      "enwiki": "GLOBE Program"
+    },
+    {
+      "id": "aurorasaurus",
+      "title": "Aurorasaurus",
+      "description": "Real-time, global map of the Northern and Southern Lights.",
+      "hardware": ["pc"],
+      "categories": ["science", "location"],
+      "website": "https://www.aurorasaurus.org",
+      "wikidata": "Q30325107",
+      "enwiki": "Aurorasaurus"
+    },
+    {
+      "id": "foldit",
+      "title": "Foldit",
+      "description": "An online puzzle video game about protein folding",
+      "hardware": ["pc", "phone"],
+      "categories": ["science", "game"],
+      "website": "https://fold.it",
+      "wikidata": "Q581771",
+      "enwiki": "Foldit"
+    },
+    {
+      "id": "observation",
+      "title": "Observation.org",
+      "description": "Online platform to record nature observations.",
+      "categories": ["photos", "science"],
+      "hardware": ["pc", "phone", "camera"],
+      "website": "https://observation.org",
+      "wikidata": "Q2920162",
+      "enwiki": "Observation.org"
+    },
+    {
+      "id": "phylo",
+      "title": "Phylo",
+      "description": "A puzzle game helping genetic research.",
+      "categories": ["science", "game"],
+      "hardware": ["pc", "phone"],
+      "website": "https://phylo.cs.mcgill.ca",
+      "wikidata": "Q5383172",
+      "enwiki": "Phylo (video game)"
+    },
+    {
+      "id": "eterna",
+      "title": "EteRNA",
+      "description": "Help genetic research by plaing a puzzle game.",
+      "categories": ["science", "game"],
+      "hardware": ["pc", "phone"],
+      "website": "https://eternagame.org",
+      "wikidata": "Q5384198",
+      "enwiki": "EteRNA"
+    },
+    {
+      "id": "globeatnight",
+      "title": "Globe at Night",
+      "description": "Report what stars and constellation you see to help measure light pollution.",
+      "hardware": ["pc"],
+      "categories": ["science", "location"],
+      "website": "https://globeatnight.org",
+      "wikidata": "Q5513637",
+      "enwiki": "Globe at Night"
+    },
+    {
+      "id": "wildme",
+      "title": "Wild Me",
+      "description": "Open software project for AI animals identification for conservation research.",
+      "categories": ["science", "photos"],
+      "hardware": ["pc", "camera"],
+      "website": "https://www.wildme.org"
+    },
+    {
+      "id": "herpmapper",
+      "title": "HerpMapper",
+      "description": "Share observations about reptiles and amphibians around the world",
+      "hardware": ["pc", "phone"],
+      "categories": ["science", "photos", "location"],
+      "website": "https://www.herpmapper.org",
+      "wikidata": "Q22080425",
+      "enwiki": "HerpMapper"
+    },
+    {
+      "id": "smithsoniantranscription",
+      "title": "Smithsonian Transcription Center",
+      "description": "Help transcribe hardwritten material stored in the Smithsonian Institution.",
+      "hardware": ["pc"],
+      "categories": ["science", "data"],
+      "website": "https://transcription.si.edu",
+      "wikidata": "Q20858341",
+      "enwiki": "Smithsonian Transcription Center"
+    },
+    {
+      "id": "ebutterfly",
+      "title": "eButterfly",
+      "description": "Online database of butterfly observations.",
+      "hardware": ["pc", "camera"],
+      "categories": ["science", "photos", "location"],
+      "website": "https://www.e-butterfly.org",
+      "wikidata": "Q56318583",
+      "enwiki": "EButterfly"
+    },
+    {
+      "id": "plantnet",
+      "title": "Pl@ntNet",
+      "description": "Identify plants by photo and help scientists.",
+      "hardware": ["pc", "phone", "camera"],
+      "categories": ["science", "photos", "location"],
+      "website": "https://plantnet.org",
+      "wikidata": "Q65147897",
+      "enwiki": "Pl@ntNet"
+    },
+    {
+      "id": "mosquitoalert",
+      "title": "Mosquito Alert",
+      "description": "Project to investigate and control disease-carrying mosquitoes.",
+      "categories": ["science", "location"],
+      "hardware": ["phone"],
+      "website": "https://www.mosquitoalert.com",
+      "wikidata": "Q121076430",
+      "enwiki": "Mosquito Alert"
+    },
+    {
+      "id": "spritacular",
+      "title": "Spritacular",
+      "description": "Help collect observations of sprites and other optical phenomena occurring above the thunderstorms, so-called Transient Luminous Events",
+      "categories": ["science", "photos"],
+      "hardware": ["pc", "camera"],
+      "website": "https://spritacular.org",
+      "wikidata": "Q124974971"
     }
   ],
   "tools": [
@@ -856,6 +1041,328 @@
       },
       "wikidata": "Q202044",
       "enwiki": "Tor (network)"
+    },
+    {
+      "id": "zooniverse",
+      "title": "Zooniverse",
+      "description": "Contribute to Zooniverse projects via website or mobile app.",
+      "hardware": ["pc", "phone"],
+      "projects": ["zooniverse"],
+      "platforms": ["web", "ios", "android"],
+      "links": {
+        "appstore": 1194130243,
+        "googleplay": "com.zooniversemobile",
+        "website": "https://www.zooniverse.org",
+        "sourcecode": "https://github.com/zooniverse"
+      },
+      "wikidata": "Q2656157",
+      "enwiki": "Zooniverse"
+    },
+    {
+      "id": "citsci",
+      "title": "CitSci",
+      "description": "Contribute to CitSci projects via website or mobile app.",
+      "hardware": ["pc", "phone"],
+      "projects": ["citsci"],
+      "platforms": ["web", "ios", "android"],
+      "links": {
+        "appstore": 657196305,
+        "googleplay": "com.nrel.citsci",
+        "website": "https://citsci.org"
+      },
+      "wikidata": "Q75242994"
+    },
+    {
+      "id": "globeobserver",
+      "title": "GLOBE Observer",
+      "description": "Contribute to GLOBE project via mobile app.",
+      "hardware": ["phone"],
+      "projects": ["globe"],
+      "platforms": ["ios", "android"],
+      "links": {
+        "appstore": 1090456751,
+        "googleplay": "gov.nasa.globe.observer",
+        "website": "https://observer.globe.gov"
+      }
+    },
+    {
+      "id": "foldit",
+      "title": "Foldit",
+      "description": "Play a game and help science.",
+      "hardware": ["pc"],
+      "projects": ["foldit"],
+      "platforms": ["linux", "windows", "macos"],
+      "links": {
+        "website": "https://fold.it/"
+      },
+      "wikidata": "Q581771",
+      "enwiki": "Foldit"
+    },
+    {
+      "id": "observation",
+      "title": "Observation",
+      "description": "Record nature observations in the field.",
+      "projects": ["observation"],
+      "hardware": ["phone"],
+      "platforms": ["android", "ios"],
+      "links": {
+        "website": "https://observation.org/apps/observation/",
+        "appstore": 6446407612,
+        "googleplay": "org.observation.observation"
+      },
+      "wikidata": "Q2920162",
+      "enwiki": "Observation.org"
+    },
+    {
+      "id": "phylo",
+      "title": "Phylo",
+      "description": "Help genetic research by plaing a puzzle game.",
+      "projects": ["phylo"],
+      "hardware": ["pc", "phone"],
+      "platforms": ["web", "android", "ios"],
+      "links": {
+        "website": "https://phylo.cs.mcgill.ca",
+        "appstore": 964668820,
+        "googleplay": "phylo.cs.mcgill.ca"
+      },
+      "wikidata": "Q5383172",
+      "enwiki": "Phylo (video game)"
+    },
+    {
+      "id": "eterna",
+      "title": "EteRNA",
+      "description": "Help genetic research by plaing a puzzle game.",
+      "hardware": ["pc", "phone"],
+      "platforms": ["web", "android", "ios"],
+      "projects": ["eterna"],
+      "links": {
+        "website": "https://eternagame.org",
+        "appstore": 1513216417,
+        "googleplay": "org.eternagame.mob",
+        "sourcecode": "https://github.com/eternagame"
+      },
+      "wikidata": "Q5384198",
+      "enwiki": "EteRNA"
+    },
+    {
+      "id": "mantamatcher",
+      "title": "Manta Matcher",
+      "description": "Photograph manta and other rays to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://mantamatcher.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      },
+      "wikidata": "Q23807953",
+      "enwiki": "Manta Matcher"
+    },
+    {
+      "id": "sharkbook",
+      "title": "Sharkbook",
+      "description": "Photograph sharks to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://www.sharkbook.ai",
+        "sourcecode": "https://github.com/WildMeOrg"
+      },
+      "wikidata": "Q116881847",
+      "enwiki": "Sharkbook"
+    },
+    {
+      "id": "flukebook",
+      "title": "Flukebook",
+      "description": "Photograph whales and dolphins to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://www.flukebook.org/",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "giraffespotter",
+      "title": "GiraffeSpotter",
+      "description": "Photograph giraffes to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://giraffespotter.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "internetofturles",
+      "title": "Internet of Turtles",
+      "description": "Photograph turles to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://iot.wildbook.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "zebrawildbook",
+      "title": "Zebra Wildbook",
+      "description": "Photograph zebras to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://zebra.wildme.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "wildbookforlynx",
+      "title": "​Wildbook for Lynx",
+      "description": "Photograph Iberian lynx to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://lynx.wildbook.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "spottinggiantseabass",
+      "title": "Spotting Giant Sea Bass",
+      "description": "Photograph giant sea bass to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://spottinggiantseabass.msi.ucsb.edu",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "wildbookforafricancarnivores",
+      "title": "Wildbook for African Carnivores",
+      "description": "Photograph African Carnivore to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://africancarnivore.wildbook.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "amphibianreptilewildbook",
+      "title": "Amphibian and Reptile Wildbook",
+      "description": "Photograph amphibians and reptiles to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://amphibian-reptile.wildbook.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "spotasharkusa",
+      "title": "Spot a Shark USA",
+      "description": "Photograph Sand Tiger Shark to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://spotasharkusa.com",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "whiskerbook",
+      "title": "Whiskerbook",
+      "description": "Photograph Big Cats to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://whiskerbook.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "grouperspotter",
+      "title": "Grouper Spotter",
+      "description": "Photograph groupers to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://www.grouperspotter.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "seadragonsearch",
+      "title": "SeadragonSearch",
+      "description": "Photograph sea dragons to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://seadragonsearch.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "sealwildbook",
+      "title": "Seal Wildbook",
+      "description": "Photograph seals to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://seals.wildme.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "snailwildbook",
+      "title": "Snail Wildbook",
+      "description": "Photograph snails to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://snails.wildme.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "deerwildbook",
+      "title": "Deer Wildbook",
+      "description": "Photograph deers to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://deer.wildme.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
+    },
+    {
+      "id": "troutspotter",
+      "title": "TroutSpotter",
+      "description": "Photograph trouts to help track them.",
+      "projects": ["wildme"],
+      "hardware": ["pc", "camera"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://troutspotter.wildme.org",
+        "sourcecode": "https://github.com/WildMeOrg"
+      }
     }
   ]
 }

@@ -27,6 +27,7 @@ export const categoriesDict: Record<Category, string> = {
   translation: "Translation",
   location: "Location-based data",
   science: "Science",
+  game: "Game with a purpose ",
 };
 
 export const platformsDict: Record<Platform, string> = {

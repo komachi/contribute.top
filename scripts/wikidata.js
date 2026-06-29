@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import chunk from "lodash.chunk";
 import data from "../app/data/data.json" with { type: "json" };
 
 const api = "https://www.wikidata.org/w/api.php";
@@ -12,26 +13,33 @@ async function populateWikipediaLinks(items) {
     return acc;
   }, []);
 
-  const params = new URLSearchParams({
-    origin: "*",
-    action: "wbgetentities",
-    format: "json",
-    props: "sitelinks",
-    sitefilter: "enwiki",
-    ids: QIDS.join("|"),
-  });
-  const res = await fetch(api, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-      Accept: "application/json",
-    },
-    body: params.toString(),
-  });
-  const json = await res.json();
+  const chunks = chunk(QIDS, 50);
+  const results = await Promise.all(
+    chunks.map((ids) => {
+      const params = new URLSearchParams({
+        origin: "*",
+        action: "wbgetentities",
+        format: "json",
+        props: "sitelinks",
+        sitefilter: "enwiki",
+        ids: ids.join("|"),
+      });
+      return fetch(api, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          Accept: "application/json",
+        },
+        body: params.toString(),
+      }).then((res) => res.json());
+    }),
+  );
+
   const links = {};
-  for (const [qid, ent] of Object.entries(json.entities ?? {})) {
-    links[qid] = ent?.sitelinks?.enwiki?.title ?? null;
+  for (const json of results) {
+    for (const [qid, ent] of Object.entries(json.entities ?? {})) {
+      links[qid] = ent?.sitelinks?.enwiki?.title ?? null;
+    }
   }
 
   return items.map((item) => {

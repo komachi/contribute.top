@@ -34,7 +34,7 @@ jobs:
       - name: Build
         run: npm build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v6
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./build/client
   deploy:

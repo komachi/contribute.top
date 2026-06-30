@@ -50,6 +50,16 @@
       "wikidata": "Q131450547"
     },
     {
+      "id": "opencellid",
+      "title": "OpenCelliD",
+      "description": "Collaborative community project that collects GPS positions of cell towers.",
+      "categories": ["location"],
+      "hardware": ["phone"],
+      "website": "https://opencellid.org",
+      "wikidata": "Q7096485",
+      "enwiki": "OpenCelliD"
+    },
+    {
       "id": "inaturalist",
       "title": "iNaturalist",
       "description": "Citizen science project for sharing observations of biodiversity across the globe.",
@@ -173,6 +183,16 @@
       "categories": ["hardware", "science"],
       "hardware": ["lora", "sdr"],
       "website": "https://tinygs.com"
+    },
+    {
+      "id": "satnogs",
+      "title": "SatNGOS",
+      "description": "Global network of satellite ground network stations.",
+      "categories": ["hardware", "science"],
+      "hardware": ["sdr"],
+      "website": "https://satnogs.org",
+      "wikidata": "Q22084815",
+      "enwiki": "SatNOGS"
     },
     {
       "id": "eol",
@@ -319,16 +339,6 @@
       "categories": ["hardware"],
       "hardware": ["geiger_counter"],
       "website": "https://radmon.org"
-    },
-    {
-      "id": "boinc",
-      "title": "BOINC",
-      "description": "Volunteer computation for science projects.",
-      "categories": ["software", "science"],
-      "hardware": ["server"],
-      "website": "https://boinc.berkeley.edu",
-      "wikidata": "Q209563",
-      "enwiki": "Berkeley Open Infrastructure for Network Computing"
     },
     {
       "id": "blitzortung",
@@ -587,6 +597,264 @@
       "hardware": ["pc", "camera"],
       "website": "https://spritacular.org",
       "wikidata": "Q124974971"
+    },
+    {
+      "id": "openhistoricalmap",
+      "title": "OpenHistoricalMap",
+      "description": "Collaborative project to create a freely licensed online database of historical world geography.",
+      "categories": ["location", "data"],
+      "hardware": ["pc"],
+      "website": "https://www.openhistoricalmap.org",
+      "wikidata": "Q25384440",
+      "enwiki": "OpenHistoricalMap"
+    },
+    {
+      "id": "factgrid",
+      "title": "FactGrid",
+      "description": "A graph database of historical knowledge.",
+      "categories": ["science", "data"],
+      "hardware": ["pc"],
+      "website": "https://database.factgrid.de",
+      "wikidata": "Q90405608",
+      "enwiki": "FactGrid"
+    },
+    {
+      "id": "openseamap",
+      "title": "OpenSeaMap",
+      "description": "Project to collect nautical data, based on OpenStreetMap.",
+      "categories": ["location"],
+      "hardware": ["pc", "sounder"],
+      "website": "https://openseamap.org/index.php?id=openseamap&L=1",
+      "wikidata": "Q23432",
+      "enwiki": "OpenSeaMap"
+    },
+    {
+      "id": "dcdb",
+      "title": "IHO Data Centre for Digital Bathymetry",
+      "description": "Contribute bathymetric data.",
+      "categories": ["location"],
+      "hardware": ["pc", "sounder"],
+      "website": "https://www.ncei.noaa.gov/iho-data-centre-digital-bathymetry"
+    },
+    {
+      "id": "pgdb",
+      "title": "Distributed Proofreaders",
+      "description": "Help proofread public domain texts from Project Gutenberg.",
+      "categories": ["data"],
+      "hardware": ["pc"],
+      "website": "https://www.pgdp.net",
+      "wikidata": "Q906319",
+      "enwiki": "Distributed Proofreaders"
+    },
+    {
+      "id": "mutopia",
+      "title": "Mutopia Project",
+      "description": "Free content sheet music database, digitally typesetted.",
+      "categories": ["data"],
+      "hardware": ["pc"],
+      "website": "https://www.mutopiaproject.org",
+      "wikidata": "Q1542831",
+      "enwiki": "Mutopia Project"
+    },
+    {
+      "id": "imslp",
+      "title": "International Music Score Library Project",
+      "description": "Digital library of public domain music scores.",
+      "categories": ["data"],
+      "hardware": ["pc"],
+      "website": "https://imslp.org",
+      "wikidata": "Q523660",
+      "enwiki": "International Music Score Library Project"
+    },
+    {
+      "id": "cpdl",
+      "title": "Choral Public Domain Library",
+      "description": "Online repository of choral and vocal music.",
+      "categories": ["data"],
+      "hardware": ["pc"],
+      "website": "https://www.cpdl.org",
+      "wikidata": "Q519635",
+      "enwiki": "Choral Public Domain Library"
+    },
+    {
+      "id": "musicbrainz",
+      "title": "MusicBrainz",
+      "description": "Collaborative music database.",
+      "categories": ["data"],
+      "hardware": ["pc"],
+      "website": "https://musicbrainz.org",
+      "wikidata": "Q14005",
+      "enwiki": "MusicBrainz"
+    },
+    {
+      "id": "opentopography",
+      "title": "OpenTopography",
+      "description": "Database of high-resolution topography data.",
+      "categories": ["data", "location"],
+      "hardware": ["uav", "lidar"],
+      "website": "https://opentopography.org",
+      "wikidata": "Q125450754"
+    },
+    {
+      "id": "asteroidsathome",
+      "title": "Asteroids@home",
+      "description": "Help study asteroids by running computations on your hardware.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server", "phone"],
+      "website": "https://asteroidsathome.net",
+      "wikidata": "Q91920494",
+      "enwiki": "Asteroids@home"
+    },
+    {
+      "id": "boinccentral",
+      "title": "BOINC Central",
+      "description": "Help with computational research in several fields.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server", "phone"],
+      "website": "https://boinc.berkeley.edu/central/"
+    },
+    {
+      "id": "cpdn",
+      "title": "Climateprediction.net",
+      "description": "A volunteer computing project dedicated to climate modeling.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server"],
+      "website": "https://climateprediction.net",
+      "wikidata": "Q1101446",
+      "enwiki": "Climateprediction.net"
+    },
+    {
+      "id": "einsteinathome",
+      "title": "Einstein@Home",
+      "description": "Search for weak astrophysical signals from spinning neutron stars.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server", "phone"],
+      "website": "https://einsteinathome.org/",
+      "wikidata": "Q1060565",
+      "enwiki": "Einstein@Home"
+    },
+    {
+      "id": "gpugrid",
+      "title": "GPUGrid.net",
+      "description": "Use your GPU to contribute to drug discovery, protein folding and molecular dynamics tasks.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server"],
+      "website": "https://gpugrid.net",
+      "wikidata": "Q2118214",
+      "enwiki": "GPUGRID.net"
+    },
+    {
+      "id": "lhcathome",
+      "title": "LHC@Home",
+      "description": "Help with computation in particle physics.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server"],
+      "website": "https://lhcathome.web.cern.ch/",
+      "wikidata": "Q688523",
+      "enwiki": "LHC@home"
+    },
+    {
+      "id": "loda",
+      "title": "LODA",
+      "description": "Help find new formulas and more efficient algorithms for a wide range of non-trivial integer sequences.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server"],
+      "website": "https://boinc.loda-lang.org/loda/"
+    },
+    {
+      "id": "milkywayathome",
+      "title": "Milkyway@Home",
+      "description": "Help create a model for Milky Way galaxy using data gathered by the Sloan Digital Sky Survey.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server"],
+      "website": "https://milkyway.cs.rpi.edu/milkyway",
+      "wikidata": "Q1207862",
+      "enwiki": "MilkyWay@home"
+    },
+    {
+      "id": "nfsathome",
+      "title": "NFS@Home",
+      "description": "Number Field Sieve factorization of large integers.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server"],
+      "website": "https://escatter11.fullerton.edu/nfs/",
+      "wikidata": "Q11883837"
+    },
+    {
+      "id": "numberfieldsathome",
+      "title": "NumberFields@home",
+      "description": "Help with computation in research in number theory.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server"],
+      "website": "https://numberfields.asu.edu/NumberFields/",
+      "wikidata": "Q116169272"
+    },
+    {
+      "id": "primegrid",
+      "title": "PrimeGrid",
+      "description": "Volunteer computing project researching prime numbers.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server"],
+      "website": "https://www.primegrid.com/",
+      "wikidata": "Q1146690",
+      "enwiki": "PrimeGrid"
+    },
+    {
+      "id": "rnaworld",
+      "title": "RNA World",
+      "description": "Volunteer computing project to advance RNA research.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server"],
+      "website": "https://www.rnaworld.de/rnaworld/"
+    },
+    {
+      "id": "rosettaathome",
+      "title": "Rosetta@home",
+      "description": "Volunteer computing project in field of protein folding.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server"],
+      "website": "https://boinc.bakerlab.org/rosetta/",
+      "wikidata": "Q898343",
+      "enwiki": "Rosetta@home"
+    },
+    {
+      "id": "worldcommunitygrid",
+      "title": "World Community Grid",
+      "description": "Volunteer computing project to perform scientific in fields that benefits humanity.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server", "phone"],
+      "website": "https://www.worldcommunitygrid.org",
+      "wikidata": "Q826776",
+      "enwiki": "World Community Grid"
+    },
+    {
+      "id": "yoyoathome",
+      "title": "yoyo@home",
+      "description": "Volunteer computing project in fields of mathematics and natural science.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server", "phone"],
+      "website": "https://www.rechenkraft.net/yoyo/",
+      "wikidata": "Q3573013"
+    },
+    {
+      "id": "foldingathome",
+      "title": "Folding@home",
+      "description": "Volunteer computing in field of biomedical research.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server"],
+      "website": "https://foldingathome.org/",
+      "wikidata": "Q386283",
+      "enwiki": "Folding@home"
+    },
+    {
+      "id": "gimps",
+      "title": "Great Internet Mersenne Prime Search",
+      "description": "Help find Mersenne prime numbers.",
+      "categories": ["software", "science"],
+      "hardware": ["pc", "server"],
+      "website": "https://www.mersenne.org/",
+      "wikidata": "Q585175",
+      "enwiki": "Great Internet Mersenne Prime Search"
     }
   ],
   "tools": [
@@ -669,7 +937,7 @@
       "title": "JOSM",
       "description": "Desktop application for editing OpenStreetMap.",
       "hardware": ["pc"],
-      "projects": ["openstreetmap"],
+      "projects": ["openstreetmap", "openhistoricalmap", "openseamap"],
       "platforms": ["windows", "linux", "macos"],
       "links": {
         "website": "https://josm.openstreetmap.de",
@@ -837,15 +1105,15 @@
     },
     {
       "id": "openfoodfacts",
-      "title": "OpenFoodFacts",
-      "description": "Contribute the OpenFoodFacts via web or mobile app.",
+      "title": "Open Food Facts",
+      "description": "Contribute to the Open Food Facts via web or mobile app.",
       "hardware": ["phone", "pc"],
       "projects": ["openfoodfacts"],
       "platforms": ["android", "web", "ios"],
       "links": {
         "website": "https://openfoodfacts.org",
         "fdroid": "openfoodfacts.github.scrachx.openfood",
-        "googleplay": "openfoodfacts.github.scrachx.openfood",
+        "googleplay": "org.openfoodfacts.scanner",
         "appstore": 588797948,
         "sourcecode": "https://github.com/openfoodfacts"
       },
@@ -867,11 +1135,24 @@
       "wikidata": "Q134906361"
     },
     {
+      "id": "towercollector",
+      "title": "Tower Collector",
+      "description": "Contribute GPS locations of GSM/UMTS/LTE/CDMA cell towers to beaconDB and OpenCelliD.",
+      "hardware": ["phone"],
+      "projects": ["beacondb", "opencellid"],
+      "platforms": ["android"],
+      "links": {
+        "fdroid": "info.zamojski.soft.towercollector",
+        "googleplay": "info.zamojski.soft.towercollector",
+        "sourcecode": "https://github.com/zamojski/TowerCollector"
+      }
+    },
+    {
       "id": "networksurvey",
       "title": "Network Survey",
       "description": "Collect cellular, Wi-Fi, Bluetooth, and/or GNSS information and contribute it to open databases.",
       "hardware": ["phone"],
-      "projects": ["beacondb"],
+      "projects": ["beacondb", "opencellid"],
       "platforms": ["android"],
       "links": {
         "website": "https://networksurvey.app",
@@ -1363,6 +1644,76 @@
         "website": "https://troutspotter.wildme.org",
         "sourcecode": "https://github.com/WildMeOrg"
       }
+    },
+    {
+      "id": "archiveteamwarrior",
+      "title": "ArchiveTeam Warrior",
+      "description": "Help ArchiveTeam archive websites by running Warrior in VM.",
+      "projects": ["archiveteam"],
+      "hardware": ["pc", "server"],
+      "platforms": ["linux", "windows"],
+      "links": {
+        "website": "https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior",
+        "sourcecode": "https://github.com/ArchiveTeam/warrior4-vm/"
+      }
+    },
+    {
+      "id": "boinc",
+      "title": "BOINC",
+      "description": "Volunteer computation for science projects.",
+      "hardware": ["server"],
+      "platforms": ["windows", "linux", "macos", "android"],
+      "projects": [
+        "asteroidsathome",
+        "boinccentral",
+        "cpdn",
+        "einsteinathome",
+        "gpugrid",
+        "lhcathome",
+        "loda",
+        "milkywayathome",
+        "nfsathome",
+        "numberfieldsathome",
+        "primegrid",
+        "rnaworld",
+        "rosettaathome",
+        "worldcommunitygrid",
+        "yoyoathome"
+      ],
+      "links": {
+        "website": "https://boinc.berkeley.edu",
+        "flathub": "edu.berkeley.BOINC",
+        "fdroid": "edu.berkeley.boinc"
+      },
+      "wikidata": "Q209563",
+      "enwiki": "Berkeley Open Infrastructure for Network Computing"
+    },
+    {
+      "id": "fahclient",
+      "title": "FAHClient",
+      "description": "Client for contributing computing power to Folding@home project.",
+      "hardware": ["pc", "server"],
+      "platforms": ["windows", "linux", "macos"],
+      "projects": ["foldingathome"],
+      "links": {
+        "website": "https://foldingathome.org"
+      },
+      "wikidata": "Q386283",
+      "enwiki": "Folding@home"
+    },
+    {
+      "id": "prime95",
+      "title": "Prime95",
+      "description": "Client for Great Internet Mersenne Prime Search project.",
+      "hardware": ["pc", "server"],
+      "platforms": ["windows", "linux", "macos"],
+      "projects": ["gimps"],
+      "links": {
+        "website": "https://www.mersenne.org",
+        "flathub": "org.mersenne.mprime"
+      },
+      "wikidata": "Q1313004",
+      "enwiki": "Prime95"
     }
   ]
 }

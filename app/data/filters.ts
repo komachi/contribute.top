@@ -14,6 +14,8 @@ export const hardwareDict: Record<Hardware, string> = {
   air_quality_monitor: "Air quality monitor",
   lightning_detector: "Lighting detector",
   noise_sensor: "Noise sensor",
+  sounder: "Echo sounder",
+  lidar: "Lidar",
 };
 
 export const categoriesDict: Record<Category, string> = {
@@ -27,7 +29,7 @@ export const categoriesDict: Record<Category, string> = {
   translation: "Translation",
   location: "Location-based data",
   science: "Science",
-  game: "Game with a purpose ",
+  game: "Game with a purpose",
 };
 
 export const platformsDict: Record<Platform, string> = {

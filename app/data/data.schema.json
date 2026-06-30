@@ -39,6 +39,10 @@
       "type": "string",
       "pattern": "^Q\\d+$"
     },
+    "ID": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9_-]*$"
+    },
     "Category": {
       "type": "string",
       "enum": [
@@ -70,7 +74,9 @@
         "geiger_counter",
         "air_quality_monitor",
         "lightning_detector",
-        "noise_sensor"
+        "noise_sensor",
+        "sounder",
+        "lidar"
       ]
     },
     "Platform": {
@@ -115,7 +121,7 @@
       "additionalProperties": false,
       "properties": {
         "id": {
-          "type": "string"
+          "$ref": "#/definitions/ID"
         },
         "title": {
           "type": "string"
@@ -159,7 +165,7 @@
       "additionalProperties": false,
       "properties": {
         "id": {
-          "type": "string"
+          "$ref": "#/definitions/ID"
         },
         "title": {
           "type": "string"

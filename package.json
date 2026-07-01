@@ -21,12 +21,12 @@
     "codegen:pwa-assets": "pwa-assets-generator",
     "build": "react-router build",
     "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc",
+    "typecheck": "run-s codegen:types codegen:reactrouter tsc",
+    "tsc": "tsc",
     "check": "biome check",
-    "test": "run-p check test:json",
+    "test": "run-p check test:json typecheck",
     "test:json": "ajv validate -s app/data/data.schema.json -d 'app/data/data.json' -c ajv-formats -c ajv-keywords",
-    "wikidata": "node scripts/wikidata.js"
+    "wikidata": "ts-node scripts/wikidata.ts"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.36.0",
@@ -64,11 +64,12 @@
     "autoprefixer": "^10.5.2",
     "husky": "^9.1.7",
     "json-schema-to-typescript": "^15.0.4",
-    "lodash.chunk": "^4.2.0",
     "npm-check-updates": "^22.2.9",
     "npm-run-all": "^4.1.5",
+    "ts-node": "^10.9.2",
     "typescript": "^6.0.3",
     "vite": "^8.1.0",
-    "vite-plugin-sitemap": "^0.8.2"
+    "vite-plugin-sitemap": "^0.8.2",
+    "wikibase-sdk": "^11.6.3"
   }
 }

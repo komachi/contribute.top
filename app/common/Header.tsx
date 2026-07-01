@@ -7,11 +7,10 @@ import {
   Menu,
   Portal,
   Separator,
-  Tabs,
 } from "@chakra-ui/react";
 import type { FC } from "react";
 import { LuExternalLink, LuMenu } from "react-icons/lu";
-import { Link as RRLink, useLocation, useNavigate } from "react-router";
+import { Link as RRLink, useLocation } from "react-router";
 import {
   ColorModeButton,
   ColorModeLinkButton,
@@ -20,7 +19,6 @@ import { sourceCode, title } from "@/data/config";
 
 const Header: FC = () => {
   const { pathname } = useLocation();
-  const navigate = useNavigate();
 
   return (
     <>
@@ -34,21 +32,23 @@ const Header: FC = () => {
           <RRLink to="/">{title}</RRLink>
         </Heading>
 
-        <Tabs.Root
-          value={pathname.replace("/", "")}
-          activationMode="manual"
-          display={{ base: "none", md: "block" }}
-          onValueChange={({ value }) => navigate(`/${value}`)}
-        >
-          <Tabs.List>
-            <Tabs.Trigger value="projects" asChild>
-              <Link unstyled>Projects</Link>
-            </Tabs.Trigger>
-            <Tabs.Trigger value="tools" asChild>
-              <Link>Tools</Link>
-            </Tabs.Trigger>
-          </Tabs.List>
-        </Tabs.Root>
+        <Box>
+          <Button
+            asChild
+            variant={
+              pathname.replace("/", "") === "projects" ? "subtle" : "ghost"
+            }
+          >
+            <RRLink to="/projects">Projects</RRLink>
+          </Button>
+          <Button
+            asChild
+            variant={pathname.replace("/", "") === "tools" ? "subtle" : "ghost"}
+          >
+            <RRLink to="/tools">Tools</RRLink>
+          </Button>
+        </Box>
+
         <Box display={{ base: "none", md: "block" }}>
           <Button variant="ghost" asChild>
             <RRLink to="/about">About</RRLink>

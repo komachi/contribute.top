@@ -1,3 +1,4 @@
+"use client";
 import { Box, CloseButton, Drawer, IconButton, Portal } from "@chakra-ui/react";
 import type { WritableAtom } from "nanostores";
 import { type FC, useState } from "react";

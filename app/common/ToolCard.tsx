@@ -1,6 +1,6 @@
 import { Box, Button, Card, HStack, Tag, Text } from "@chakra-ui/react";
+import NextLink from "next/link";
 import { type FC, memo } from "react";
-import { Link as RRLink } from "react-router";
 import { hardwareDict, platformsDict } from "@/data/filters";
 import type { Tool } from "@/types";
 import LinksList from "./LinksList";
@@ -30,9 +30,9 @@ const ToolCard: FC<Tool> = memo(
           </HStack>
         </Card.Body>
         <Card.Footer justifyContent="space-between">
-          <RRLink to={`/tools/${id}`}>
+          <NextLink href={`/tools/${id}`}>
             <Button variant="outline">Learn more</Button>
-          </RRLink>
+          </NextLink>
           <Box gap="6px" display="flex">
             <LinksList links={links} />
           </Box>

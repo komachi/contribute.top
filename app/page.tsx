@@ -1,40 +1,22 @@
 import { Box, Button, Heading, HStack, Text } from "@chakra-ui/react";
+import type { Metadata } from "next";
+import Link from "next/link";
 import type { FC } from "react";
-import { Link } from "react-router";
 import { cannonicalUrl, title } from "@/data/config";
-import type { Route } from "./+types/home";
 
-export function meta() {
-  return [
-    { title },
-    {
-      property: "og:title",
-      content: title,
-    },
-    {
-      name: "description",
-      content: "Help crowdsourcing projects in open data and citizen science",
-    },
-    {
-      name: "og:description",
-      content: "Help crowdsourcing projects in open data and citizen science",
-    },
-    {
-      name: "og:type",
-      content: "website",
-    },
-    {
-      name: "twitter:card",
-      content: "summary",
-    },
-    {
-      name: "og:url",
-      content: cannonicalUrl,
-    },
-  ];
-}
+export const metadata: Metadata = {
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: `${cannonicalUrl}/`,
+    siteName: title,
+  },
+  alternates: {
+    canonical: "/",
+  },
+};
 
-const Home: FC<Route.ComponentProps> = () => {
+const Home: FC = () => {
   return (
     <Box
       p={{ base: 6, md: 10 }}
@@ -59,10 +41,10 @@ const Home: FC<Route.ComponentProps> = () => {
       </Text>
       <HStack mt="32px" gap="16px">
         <Button size="2xl" variant="solid" rounded="xl" asChild>
-          <Link to="/projects">Check projects</Link>
+          <Link href="/projects">Check projects</Link>
         </Button>
         <Button size="2xl" variant="outline" rounded="xl">
-          <Link to="/tools">Check tools</Link>
+          <Link href="/tools">Check tools</Link>
         </Button>
       </HStack>
     </Box>

@@ -1,7 +1,12 @@
+"use client";
 import { useStore } from "@nanostores/react";
 import jsonata from "jsonata";
 import type { FC } from "react";
 import useSWRImmutable from "swr/immutable";
+import type { Filter } from "@/common/Filters";
+import ProjectCard from "@/common/ProjectCard";
+import SearchPage from "@/common/SearchPage";
+import data from "@/data/data.json";
 import { categoriesDict, hardwareDict } from "@/data/filters";
 import {
   $categoriesFilter,
@@ -9,9 +14,6 @@ import {
   $projectsCombinedFilters,
 } from "@/store";
 import type { Category, Hardware, Project } from "@/types";
-import type { Filter } from "./Filters";
-import ProjectCard from "./ProjectCard";
-import SearchPage from "./SearchPage";
 
 const filters: Array<Filter> = [
   {
@@ -35,11 +37,18 @@ const filters: Array<Filter> = [
     $store: $hardwareFilter,
   },
 ];
-const ProjectsList: FC<{ projects?: Array<Project> }> = ({ projects }) => {
+
+const ProjectsList: FC = () => {
   const filtersData = useStore($projectsCombinedFilters);
   const { data: results, isLoading } = useSWRImmutable(
     ["projects", filtersData],
     async () => {
+      if (
+        filtersData.categories.length === 0 &&
+        filtersData.hardware.length === 0
+      ) {
+        return data.projects as Array<Project>;
+      }
       const expression = jsonata(
         `$append([], $[
         ${
@@ -55,7 +64,7 @@ const ProjectsList: FC<{ projects?: Array<Project> }> = ({ projects }) => {
         }
       ])`,
       );
-      const result = await expression.evaluate(projects);
+      const result = await expression.evaluate(data.projects);
       return result as Array<Project>;
     },
   );

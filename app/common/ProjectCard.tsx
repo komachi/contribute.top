@@ -1,7 +1,7 @@
 import { Button, Card, HStack, Link, Tag, Text } from "@chakra-ui/react";
+import NextLink from "next/link";
 import { type FC, memo } from "react";
 import { LuExternalLink } from "react-icons/lu";
-import { Link as RRLink } from "react-router";
 import { categoriesDict, hardwareDict } from "@/data/filters";
 import type { Project } from "@/types";
 
@@ -30,9 +30,9 @@ const ProjectCard: FC<Project> = memo(
           </HStack>
         </Card.Body>
         <Card.Footer justifyContent="space-between">
-          <RRLink to={`/projects/${id}`}>
+          <NextLink href={`/projects/${id}`}>
             <Button variant="outline">Learn more</Button>
-          </RRLink>
+          </NextLink>
           <Link href={website} target="_blank" rel="noopener">
             Website <LuExternalLink />
           </Link>

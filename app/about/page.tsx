@@ -1,39 +1,25 @@
 import { Box, Code, Heading, Link, List, Text } from "@chakra-ui/react";
+import type { Metadata } from "next";
 import type { FC } from "react";
-import { cannonicalUrl, sourceCode, title } from "@/data/config";
-import type { Route } from "./+types/about";
+import { sourceCode, title } from "@/data/config";
 
-export function meta() {
-  return [
-    { title: `About ${title}` },
-    {
-      property: "og:title",
-      content: `About ${title}`,
-    },
-    {
-      name: "description",
-      content: `Information about ${title} project`,
-    },
-    {
-      name: "og:description",
-      content: `Information about ${title} project`,
-    },
-    {
-      name: "og:type",
-      content: "website",
-    },
-    {
-      name: "twitter:card",
-      content: "summary",
-    },
-    {
-      name: "og:url",
-      content: `${cannonicalUrl}/about`,
-    },
-  ];
-}
+export const metadata: Metadata = {
+  title: `About ${title}`,
+  description: `Information about ${title} project`,
+  openGraph: {
+    title: `About ${title}`,
+    description: `Information about ${title} project`,
+    url: "/about/",
+    type: "website",
+    locale: "en_US",
+    siteName: title,
+  },
+  alternates: {
+    canonical: "/about/",
+  },
+};
 
-const About: FC<Route.ComponentProps> = () => {
+const About: FC = () => {
   return (
     <Box py="16px">
       <Heading size="3xl" as="h2" mb="8px">

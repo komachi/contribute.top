@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Box,
   Button,
@@ -8,9 +10,10 @@ import {
   Portal,
   Separator,
 } from "@chakra-ui/react";
+import NextLink from "next/link";
+import { useSelectedLayoutSegment } from "next/navigation";
 import type { FC } from "react";
 import { LuExternalLink, LuMenu } from "react-icons/lu";
-import { Link as RRLink, useLocation } from "react-router";
 import {
   ColorModeButton,
   ColorModeLinkButton,
@@ -18,7 +21,7 @@ import {
 import { sourceCode, title } from "@/data/config";
 
 const Header: FC = () => {
-  const { pathname } = useLocation();
+  const segment = useSelectedLayoutSegment();
 
   return (
     <>
@@ -29,29 +32,21 @@ const Header: FC = () => {
           fontWeight="light"
           asChild
         >
-          <RRLink to="/">{title}</RRLink>
+          <NextLink href="/">{title}</NextLink>
         </Heading>
 
         <Box>
-          <Button
-            asChild
-            variant={
-              pathname.replace("/", "") === "projects" ? "subtle" : "ghost"
-            }
-          >
-            <RRLink to="/projects">Projects</RRLink>
+          <Button asChild variant={segment === "projects" ? "subtle" : "ghost"}>
+            <NextLink href="/projects">Projects</NextLink>
           </Button>
-          <Button
-            asChild
-            variant={pathname.replace("/", "") === "tools" ? "subtle" : "ghost"}
-          >
-            <RRLink to="/tools">Tools</RRLink>
+          <Button asChild variant={segment === "tools" ? "subtle" : "ghost"}>
+            <NextLink href="/tools">Tools</NextLink>
           </Button>
         </Box>
 
         <Box display={{ base: "none", md: "block" }}>
           <Button variant="ghost" asChild>
-            <RRLink to="/about">About</RRLink>
+            <NextLink href="/about">About</NextLink>
           </Button>
           <ColorModeButton />
         </Box>
@@ -67,17 +62,17 @@ const Header: FC = () => {
                 <Menu.Content>
                   <Menu.Item value="projects">
                     <Button variant="plain" asChild size="sm">
-                      <RRLink to="/projects">Projects</RRLink>
+                      <NextLink href="/projects">Projects</NextLink>
                     </Button>
                   </Menu.Item>
                   <Menu.Item value="tools">
                     <Button variant="plain" asChild size="sm">
-                      <RRLink to="/tools">Tools</RRLink>
+                      <NextLink href="/tools">Tools</NextLink>
                     </Button>
                   </Menu.Item>
                   <Menu.Item value="about">
                     <Button variant="plain" asChild size="sm">
-                      <RRLink to="/about">About</RRLink>
+                      <NextLink href="/about">About</NextLink>
                     </Button>
                   </Menu.Item>
                   <Menu.Item value="source">

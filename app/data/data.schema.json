@@ -43,6 +43,24 @@
       "type": "string",
       "pattern": "^[a-zA-Z0-9_-]*$"
     },
+    "Type": {
+      "type": "string",
+      "enum": [
+        "writing",
+        "software",
+        "hardware",
+        "game",
+        "voice",
+        "photos",
+        "music",
+        "graphics",
+        "translation",
+        "transcription",
+        "annotation",
+        "classify",
+        "location"
+      ]
+    },
     "Category": {
       "type": "string",
       "enum": [

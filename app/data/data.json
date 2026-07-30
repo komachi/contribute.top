@@ -855,6 +855,15 @@
       "website": "https://www.mersenne.org/",
       "wikidata": "Q585175",
       "enwiki": "Great Internet Mersenne Prime Search"
+    },
+    {
+      "id": "openbenches",
+      "title": "OpenBenches",
+      "description": "Open data repository for memorial benches.",
+      "categories": ["photos", "location"],
+      "hardware": ["camera", "phone"],
+      "wikidata": "Q47526250",
+      "website": "https://openbenches.org"
     }
   ],
   "tools": [
@@ -1029,6 +1038,31 @@
         "sourcecode": "https://github.com/arthurpsmith/author-disambiguator/"
       },
       "wikidata": "Q76693569"
+    },
+    {
+      "id": "wikicrowd",
+      "title": "WikiCrowd",
+      "description": "Help find what images depict.",
+      "hardware": ["pc"],
+      "projects": ["wikidata"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://wikicrowd.toolforge.org/",
+        "sourcecode": "https://github.com/addshore/wikicrowd"
+      }
+    },
+    {
+      "id": "thedistibutedgame",
+      "title": "Wikidata - The Distributed Game",
+      "description": "Online game where players edit Wikidata.",
+      "hardware": ["pc"],
+      "projects": ["wikidata"],
+      "platforms": ["web"],
+      "links": {
+        "website": "https://wikidata-game.toolforge.org/distributed/",
+        "sourcecode": "https://codeberg.org/magnusmanske/wikidata-game"
+      },
+      "wikidata": "Q26919966"
     },
     {
       "id": "como",
